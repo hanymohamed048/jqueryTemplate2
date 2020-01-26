@@ -1,0 +1,364 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+body
+{
+}
+
+header
+{
+	background-image: url('../images/cover.jpg');
+	background-size: cover;
+	color: white;
+}
+ .overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+}
+ nav
+{
+	overflow: hidden;
+	padding:   10px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	width: 100%;
+}
+ nav h4
+{
+	float: left;
+	text-align: right;
+	width: 15%;
+}
+ nav .right
+{
+	float: right;
+	width: 20%;
+}
+.text-center
+{
+	text-align: center;
+}
+.upper
+{
+	text-transform: uppercase;
+}
+.color
+{
+	color:#f7600e;
+}
+.background
+{
+	background:#f7600e;
+}
+.clearfix
+{
+	clear: both;
+}
+header h1
+{
+	margin-bottom: 30px;
+}
+header p
+{
+	margin-bottom: 20px;
+}
+header button
+
+{    transition: all .5s ease-in-out;
+	background: transparent;
+	color: white;
+	width: 200px;
+	padding:10px 0;
+	margin-right: 5px;
+	border:1px solid white;
+	border-radius: 10px;
+
+}
+header button:hover
+{
+	background-color: #f7600e;
+}
+.arrow
+{
+	color: white;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center ;
+	margin-bottom: 5px;
+
+}
+.arrow i
+{
+	border:1px solid white;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.container
+{
+	width: 1000px;
+	margin: 0px auto;
+}
+#features
+{
+	margin: 100px;
+}
+section > div div
+{
+	float: left;
+	width: 22%;
+	color: #aaa;
+	margin-right: 3%;
+
+}
+section > div div:last-child
+{
+	margin-right: 0px;
+}
+section > div div  i
+{
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	border:1px solid #f7600e ;
+	color: #f7600e ;
+
+}
+section > div div h2
+{
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+.search
+{
+	background-image: url('../images/search.png');
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+.search form
+{
+	padding: 0px 238px;
+    line-height: 300px;
+    width: 100%;
+
+}
+.search form input
+{
+	width: 300px;
+	height: 20px;
+	padding: 15px;
+	margin-right: 5px;
+	border-radius: 10px;
+	outline: 0;
+}
+.search form button
+{
+	border:none;
+	width: 200px;
+	height: 33px;
+	background-color: #f7600e;
+	color: white;
+	border-radius: 10px;
+	outline: 0;
+
+}
+.our-work
+{
+	margin: 50px;
+}
+.our-work .content
+{
+	margin:50px;
+}
+.content h2
+{
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.items .images
+{
+	float: left;
+	width: 30%;
+	margin: 1%;
+	position: relative;
+	transition: all 1s ease-in-out;
+
+}
+.items .images img
+{
+	width: 100%;
+	border-radius: 20px;
+	border:1px solid #ccc;
+}
+.images .overlay
+{
+	background: #f7600e;
+	opacity: .9;
+	color:white;
+	border-radius: 20px;
+	display: none;
+
+}
+.images .overlay h2
+{
+	margin: 40px 0px 30px;
+	font-weight: normal;
+
+}
+.images .overlay p
+{
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+.images .overlay button
+{
+	background-color: transparent;
+	width: 160px;
+	padding: 5px;
+	color: white;
+	border:1px solid white;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: all .5s ease-in-out;
+
+}
+.images .overlay button:hover
+{
+	background-color: white;
+	color: #f7600e;
+
+}
+.images:hover .overlay
+{
+	display: block;
+	cursor: copy;
+}
+.testim
+{
+	background-image: url(../images/testim.jpg);
+	width: 100%;
+	height: 400px;
+	position: relative;
+	background-size: cover;
+	color: white;
+}
+.testim .overlay
+{
+	opacity: .9;
+	position: relative;
+}
+.testim .opinion img
+{
+	z-index: 5;
+	margin-top: 50px;
+	border-radius: 50%;
+	width: 170px;
+	height: 170px;
+}
+.testim .opinion h2
+{
+	margin: 5px;
+}
+.testim .opinion p
+{
+	margin: 15px;
+	font-style: italic;
+}
+.hidden
+{
+	display: none;
+}
+.testim .fa-chevron-circle-left,
+.testim .fa-chevron-circle-right
+{
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+}
+.testim .fa-chevron-circle-left
+{
+	left: 12%;
+}
+
+.testim .fa-chevron-circle-right
+{
+	right: 12%;
+}
+.team .our-head
+{
+	margin: 50px 0px;
+}
+.team .our-head h2
+{
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+.team .our-head p
+{
+	color: #aaa;
+}
+.team .our-team
+{
+	overflow: hidden;
+}
+.person
+{
+	float: left;
+	width: 23%;
+	margin-left: 1%;
+	border-radius: 20px;
+	color: #aaa;
+	filter: grayscale(100%);
+
+}
+.person img
+{border-radius: 30px;
+	width: 100%;
+	height:220px;
+	background-size: cover;
+}
+.person:hover
+{
+	filter: grayscale(0);
+	color: black;
+}
+.person h2
+{
+	margin: 15px 0px;
+	font-weight: normal;
+}
+.person i{
+	color: white;
+	background-color: #aaa;
+	padding: 7px;
+	border-radius: 50%;
+	cursor: pointer;
+	margin: 10px 2px ;
+}
+   .person:hover .fa-facebook 
+{
+	background-color:#3b5999;
+}
+.person:hover .fa-twitter
+{
+	background-color: #55acee;
+}
+.person:hover .fa-google-plus
+{
+	background-color: #dd4b39;
+}
